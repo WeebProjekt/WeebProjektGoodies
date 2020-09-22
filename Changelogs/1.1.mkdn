@@ -1,0 +1,68 @@
+   * build/make
+460a01e2c Don't include recovery in otapackages
+8f15a5981 Disable downgrade check
+382d3e925 build : Track apn config from our vendor
+8b3e22a0d Revert "[2/2] build: Use generated_kernel_headers only if we aren't using prebuilt kernel."
+fac8754f0 Add extra variables to _readonly_late_variables
+
+   * frameworks/av
+f1040adb4d Camera: Add support for preview frame fd
+543a2b879a Camera: Add extensions to CameraClient
+4a2480f19b audiopolicy: make audio policy extensible
+4035ec2d2e audiopolicy: support extended feature in audiopolicymanager
+
+   * frameworks/base
+4b35b43b7a6 Camera: Add feature extensions
+79e5594d08d fingerprint: handle PerformanceStats NULL pointers
+18a293dbdd2 SystemUI: Remove build version from qs footer
+359770f32da Fix WebView vulnerability by disallowing file access
+44bf6d36a57 incremental: Fix more clang-tidy warnings
+23726a924f5 Sanitize Bluetooth device names without regex
+45bd0205609 Fix bug Device that can't support adoptable storage cannot read the sdcard.
+18ca7e6b4e0 Fix color mismatch of pointers
+e20db3e7309 Fix CDM.requestNotificationAccess() in profile.
+3b49eae5a26 Correction in logic of roundend size calculation of SD card
+af5487d253b incremental: Don't pollute namespace with android::{incfs,incremental}
+2099fab9233 IncrementalService: Fix clang-tidy warning
+
+   * frameworks/native
+6a4e41d49 [cleanup] Fix a clang-tidy warning
+87c5f6cb8 SurfaceFlingerProperties: Use proper prop scope
+
+   * hardware/libhardware
+ebe6ce2e audio: Add audio amplifier HAL
+b6355fdd libhardware: Add new display types.
+
+   * hardware/qcom-caf/msm8998/display
+d4d90cbe display: Upgrade String16 users to C++17.
+
+   * packages/apps/Settings
+201e3b6869 BasebandVersionDialogController: Trim duplicated baseband if needed
+1ccf5b96db Disable Google Play system update check
+42a0ac556a fingerprint: Allow devices to configure sensor location
+
+   * packages/apps/ThemePicker
+e8a9b20 Add wallpaper default permissions
+a8d7b73 Add wallpaper privapp whitelist
+24915e8 ThemePicker: Fix ugly black/transparent bar under nav area
+233004e Fix preview tile in grid option picker
+4ddb985 ThemePicker: Show item name under the category name
+61f8405 ThemePicker: Enable vertical scrollbar for options container
+41242f8 ThemePicker: limit number of icon previews shown
+741df49 Specify we read and write launcher settings
+1112807 Properly catch exceptions
+
+   * system/bt
+5c8e416e9 Add support to force disable enhanced sco commands
+595ee429c gd: proto: Remove optimize_for = LITE_RUNTIME
+07bca8c5d Fix possible OOB when receive gatt read type response data
+
+   * system/sepolicy
+e1fc57b48 Allow ignore neverallows in user builds
+
+   * system/vold
+3916326 vold: Fix fsck on public volumes
+7db9990 vold: add support for more filesystems for public storage
+
+   * vendor/qcom/opensource/vibrator
+1f30c39 vibrator : remove libhwbinder and libhidltransport dependencies

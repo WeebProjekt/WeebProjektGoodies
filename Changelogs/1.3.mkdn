@@ -1,0 +1,97 @@
+   * build/make
+9f4e8c7bd build: Make systemimage depend on installed kernel if system is root
+1530fea0c envsetup: export ANDROID_BUILD_TOP earlier
+87f7fd964 Use 0 compression when creating the target_files package
+a1670bb48 Build required modules from default
+3b473651b core: Disable vendor restrictions
+19ccaac47 product: Add hardware/qcom-caf/wlan/qcwcn/wpa_supplicant_8_lib to cfi path
+3270fca02 Only show build id
+824aef60e core: makefile: Use 'release-keys' for build tag
+13e1b67dc build: Ensure /system unmounted at install start
+e6f8adbaf add support for overriding build.prop settings.
+04e7c5f99 All operating systems are beautiful
+0aeb1f690 Remove empty new-space in dynamic_partition_list and super_$(group)_partition_list
+174ca2e57 build : Add more vairables
+
+   * build/soong
+f6ae9797 soong: Hack to preserve weeb product variables
+9274169e soong: whitelist ccache
+19c7d2dd soong: Add 'repo' to allowed commands
+a899cc90 soong: Enforce absolute path if OUT_DIR is set
+
+   * frameworks/av
+9cb68b22b3 camera: Only link and use vendor.qti.hardware.camera.device if specified
+d307d7e42e Camera: Miscellaneous fixes in QDataCallback and binder death scenarios.
+f4668d5882 Camera: CameraHardwareInterface changes to support Extended FD
+
+   * frameworks/base
+a68c2217dc9 QS: Add and use Bluetooth Panel instead of full Settings
+2ae7cc351c9 QS: Use Settings.Panel intents for WiFi and NFC
+311fc93a20a Screenshot: Append app name to filename
+773f75545fe Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation
+fbb38482450 Add missing INTERACT_ACROSS_USERS_FULL permission
+a7b45f93d05 Add "android.permission.READ_PHONE_STATE" to manifest
+d0f92aa7495 CarrierConfigManager: enable LTE+ icon by default
+955cbe865f5 Reduce log verbosity: Don't spam logcat
+8bcf8a8e196 base: Remove unnecessary videos
+0c5d469db24 base: Delete media tests
+9ef81fec642 fwb: SystemUI: Remove GarbageMonitor tile
+b90395d48d5 Download: Add support to manually pause/resume download
+be992d49b19 PackageInstaller: Show current and new version on APK installation
+52b118debec LED lights: Don't skip Dialer and other apps
+6bc264d139e ViewConfiguration: Set scroll friction to 0.012
+72e080faa15  storage: Set all sdcards to visible
+38be8d251df SystemUI: Tiny expanding improvement
+c640575946c SystemUI: Allow user to add/remove QS with one click
+83359d19c3c Improve scrolling cache
+220376d61f0 base: set scrolling friction to 0.006f
+71c1725dfea KernelCpuUidTimeReader: Decrease log level on non-eng builds
+06c74bba7d7 BluetoothAdapter: disable logspew
+8c94801c4d5 Suppress FingerprintManager logspam
+b2f1ce93b70 Disable notification channel warnings by default
+0b31a07f129 aapt: Default to 0 compression ratio
+
+   * frameworks/native
+b35417bba Blur: increase downsampling
+
+   * hardware/interfaces
+e48829890 keymasterV4_0: Tags support for FBE wrapped key.
+648cb120c camera: Only link and use vendor.qti.hardware.camera.device if specified
+bb8e9af4b Camed HAL extension: Added support in HIDL for Extended FD.
+
+   * manifest
+9a32e6e Fix    * path name
+4ac8867 Don't track thermal anymore also track some of our prebuilt
+
+   * packages/apps/Settings
+49e689e22f Settings: Hide carrier settings version if empty
+263321414a hardwareinfo: Hide hardware revision if empty
+7c56594f7e Allow sorting Applications by size
+9671e00f9d Settings: Add package name to installed app details
+f6557e0e62 DevelopmentSettings: Hide OEM unlock by default
+286eb5190f Settings: Hide|disable "Phone number" from About phone information
+d66de5a141 Settings: Add WEeb build version to About Phone
+69f06a8924 Settings: remove duplicate build number from firmware dialogue
+7ffcb6b96c Settings: add back selinux status
+a895ab4893 Settings: Add Device codename to Firmware version window
+e9520a2bec Suggestion cards: align them to searchbar
+5822d20c70 Settings: show battery times vertically below the title
+f27db39648 fingerprint: Remove unnecessary spacing in enroll layout
+346fc942b7 Settings: PowerUsageSummary: open advanced usage on header click
+62882d879f Settings: Show full /proc/version information
+178e92817e Remove feedback and bug report stuff
+
+   * packages/apps/SettingsIntelligence
+aa166f5 SettingsIntelligence: Match Settings style
+
+   * system/core
+23c481b46 Add wrapped key support
+9ce8f1f7c init: Add vendor-specific initialization hooks.
+
+   * system/sepolicy
+ae7821395 sepolicy: Add sdcard_posix_contextmount_type attribute
+
+   * system/vold
+31f7055 system: vold: Use wrapped key for metadata encryption
+529fa76 system: vold: Upgrade the FBE key
+48be0ed vold: Enable legacy support for wrapped key

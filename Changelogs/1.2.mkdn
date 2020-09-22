@@ -1,0 +1,53 @@
+   * build/make
+3fd9825c5 build: Restore Q recovery AVB behaviour
+
+   * manifest
+072e958 manifest : track repos from los and temp from various other sources
+
+   * packages/apps/Settings
+bc0ce93054 Add theming settings back
+
+   * bionic
+33db827dd bionic: Support wildcards in cached hosts file
+bb3da2002 bionic: Sort and cache hosts file data for fast lookup
+
+   * build/blueprint
+0c7e7cc Add CreateAliasVariation
+e174bde Combine variant fields into variant struct
+f8c0abc Add ReplaceDependeciesIf to allow for conditional replacement
+c9e5ac5 Add ctx.OtherModule(Reverse)DependencyVariantExists.
+
+   * build/make
+345e19822 build : stop building more apps
+
+   * build/soong
+335e6eff soong : whitelist perl * perl is not allowed by default Signed-off-by: faham1997 <nafidfaham08@gmail.com>
+
+   * external/guice
+acbb35f6 guice: Remove .class files from srcjar
+f1588d92 guice: Make guice_munge_srcjar generation quiet
+
+   * frameworks/av
+23ef773892 Allow graceful degradation of MediaProfile with broken configuration.
+
+   * frameworks/native
+710320c02 SurfaceFlingerProperties: Use Public Scope *sysprop_api_dump W 09-20 07:46:43 208942 208942 Common.cpp:248] Sysprop API max_graphics_width: System scope is deprecated. Please use Public scope instead. *sysprop_api_dump W 09-20 07:46:43 208942 208942 Common.cpp:248] Sysprop API max_graphics_height: System scope is deprecated. Please use Public scope instead.
+
+   * hardware/qcom-caf/wlan
+72322c6 wlan  : Fix building on 11
+
+   * packages/resources/devicesettings
+23ba1a9 Automatic translation import
+
+   * system/core
+58d5f2184 healthd: Reinitialize mChargerNames for every battery update
+29f8d8286 healthd: Add DASH charger type
+5b9b1227c healthd: Add support for HVDCP_3 chargers
+828dc5de7 Remove unneeded optimize_for lite
+622a8eaea errno_restorer: Make bool operator explicit
+13a09a79c [cleanup] Fix a clang-tidy warning
+36a23169d Camera: Add feature extensions
+
+   * tools/metalava
+e35964c [Metalava] don't use reflections
+313d60b Limit metalava visibility
