@@ -1,0 +1,128 @@
+====================
+     09-28-2020
+====================
+
+
+   * frameworks/base
+94e793ca145 ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects
+79ac874de61 SystemUI: Fix SystemUI Crash
+5c46ce32044 BackupAgent: Add backup shared mode
+7d0d69cab0d SystemUI: restart timeout causes black screen
+a30e4929eee Apply JNI optimizations to HwParcel
+0616b5a23c9 Call log limit 500=>5000
+e2457abf7a7 base: limit direct share targets to reduce lag
+f540216901e SettingsProvider: Fix for google backup and restore
+be745449b05 display: Don't animate screen brightness when turning the screen on
+ebe9b72c1b1 SystemUI: Add colors to assistant animation
+8e1ac981b3d config: Allow gms to access persistent data partition
+8867390803f config: Round system dialogs, buttons and progress bars
+c4e52f687e4 overlays: Unify icon packs category name
+4b8c4b2b147 fonts: Add fonts_customization.xml from pixel 4a
+0765ad8f8a1 overlays: Add Google Sans font
+76a21e28700 overlays: Add Rubik / Rubik font
+d108f018e70 overlays: Add Arbutus Slab / Source Sans Pro font
+b1696aaab64 overlays: Add Zilla Slab / Lato font
+18145ad0a5d overlays: Add Pixel Blue accent
+7ecfb5feee4 Skip screen on animation when wake and unlock via biometrics
+
+   * packages/apps/Launcher3
+74fed2f6d Launcher3: Let's make the search bar on all apps round
+
+   * packages/apps/Settings
+cf3c6b69d9 Revert "SearchBar: Add avatar to search bar"
+c520d600b3 Settings: pixelize settings more
+8e8e61045f Settings: move dark theme under theming category
+177331e738 Settings: add support for changing icon pack
+8ba11ea4e8 Settings: add back theming from dev settings into display settings
+08db84c6a5 Revert "Add theming settings back"
+98d5e38785 Settings: display fstype for mounted volumes
+70a2671fcb Settings: fix hardcoded black text in storage summary
+e41fcbef17 SearchBar: Add avatar to search bar
+a95765b499 Settings: Rearrange density options under Settings/Display
+8e203db31f Settings: Fix the failing strings
+6e2a19d8df Settings: Use correct icon for ring volume
+90e6c70e85 Settings: Add all gesture preview animations
+62e8c5514a Settings: Fix icon tinting in power detail pages
+b0674a33cf Settings: Address a memory leak
+dbba7c642a Settings: Hide unsupported USB modes automatically
+5fd0f53789 fuelgauge: add back battery level animation
+
+====================
+     09-27-2020
+====================
+
+
+   * packages/apps/Settings
+e70f7cf01d Settings: use Hardware information instead Device & Model
+cdea6a4978 Settings: update weeb device preview
+
+====================
+     09-26-2020
+====================
+
+
+   * manifest
+cae79cb manifest : Track alot of our repos
+
+   * packages/apps/Settings
+bbe9bfb12a Settings: add weeb phone into about device preference
+0815ff639d Settings: use Firmware information instead Android version header
+32c1efd80b Settings: remove banner top margin
+26545f8ab6 Settings: add weeb banner in firmware information
+e3d3c85f4c Settings: adjust my device preference
+
+   * prebuilts/tools-weeb
+fe1b3bc Add nproc from toybox
+
+====================
+     09-25-2020
+====================
+
+
+   * bootable/recovery
+1e59a827 recovery: Disable install-recovery.sh
+612ae7f7 Bring back file-based OTA edify functions
+
+   * frameworks/base
+8fd8bcb7448 GlobalScreenshot: Speed up actions expansion animation
+b5513e3641e AndroidManifest: add a permission group for signature spoofing
+8fb3c31f087 base: Add permission to allow an APK to fake a signature.
+a48a40f4ae4 overlays: Build 2-button navigation bar overlay
+43185cfbbd7 stop auto-granting location to system browsers
+6bda3f39aa9 StorageManagerService: Disable FUSE by default
+bcd0ce3e2b3 config: Reduce screenshot keychord delay
+49bf2fa551e config: Downscale task snapshots to 80%
+1e119f79e08 config: Allow opening power menu when screen is off
+0db2cb97c98 base: SystemUI: enable tuner
+59fa7663191 SystemUI: remove media player top divider
+c8017832f11 SettingsLib: Don't show system overlays on apps list
+46a2cbccd4e PowerProfile: allow overriding default power profile
+89875eb4617 config: Switch to rounded icons by default
+de70719ead9 Add api to force show led lights
+
+====================
+     09-24-2020
+====================
+
+
+   * build/make
+fe3886f93 build : turn on ccache automatically
+
+   * build/soong
+f8bac0cb soong : fix bracket (my mistake)
+
+   * packages/apps/Settings
+6235133250 search: Impliment external searching
+4ccbf47ad0 Port "Battery Usage Alerts" feature from factory images
+cd13cb2b64 fuelgauge: Fix possible memory leaks
+bcbfd19261 fuelgauge: Implement Early Warnings
+580c11cecc fuelgauge: Use Enhanced Battery Prediction from Turbo
+e76bb6d3f9 Open app when clicking on icon in App Info
+3ac715cde7 Disable notification channel warnings by default
+77814b0995 Settings: Add missing gesture and battery animations
+33eb98fcd4 Enable FeatureFlags on "user" builds too
+
+   * packages/apps/SettingsIntelligence
+9356446 SettingsIntelligence: Regen database on build version change
+abdead9 SettingsIntelligence: Match Settings style
+
