@@ -1,0 +1,130 @@
+
+WeebProjekt R
+
+
+====================
+     10-02-2020
+====================
+
+
+   * frameworks/base
+87e6fb07a60 overlays : Don't build font from here
+611fc3c7817 base: QS: beautify airplane & mobile data icons
+cb588c03c63 base: Update QS tile icons
+ee0032b09c3 base: SystemUI: use alpha adjusted QS tile disabled color
+81885b2e15e Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin
+85d6578ae37 base: SystemUI: Tint QS Tile with accent color
+69d26d40ce9 GlobalScreenshot: Fix old screenshot preview appearing in screenshots
+6c875e8ae61 Disable/Enable screenshot sound [1/2]
+a13828c7d60 fwb: [1/2] Implement cutout force full screen
+5b50007437b NightLight: Allow lower temperatures
+81386a36518 SystemUI: Allow overlaying max notification icons
+625f045361b Enable Binder Proxy Tracking by Uid only on eng builds
+6d7deb523b4 SystemUI: allow devices override audio panel location
+0067544f2c4 SystemUI: enable NFC tile
+a74b966efb6 base: SystemUI: prevent that double tap to sleep triggers panel expand
+4db6ce80dce Utils: Add some missing imports
+6e09ca61adf SystemUI: fix MediaProjection cast crash
+233112ae15b fix error com.google.android.gms.persistent
+b02efe9a195 base: Utils: Add a sendKeycode API code borrowed from com.android.systemui.statusbar.policy.KeyButtonView
+085ad9bf1a7 base: Utils: Add method to turn off the screen
+72b04c58378 base: Utils: Add check for Chinese Language
+5389ab6afc4 base: Utils: Add isPackageInstalled boolean
+76abb863c26 base: Add our Utils helper class
+9f29b06eb03 [1/2] base: Double tap to sleep on lockscreen
+63c37a91acf [1/2] base: double tap to sleep on statusbar
+dcf0a5226d7 Add Weeb metric constants
+
+   * hardware/ril
+3326141 libril: allow board to provide libril
+299deb5 Make RIL command headers overlayable by devices.
+b6a580c libril: Restore support for RIL v6, v8 and v9 stacks
+8b56ad5 libril: Fix manual network selection with old modem
+bb13b53 rild: only stop rild when qcrild is running
+
+   * packages/apps/Settings
+5906e5e805 settings : Fix the xml
+3eeabb6212 Cutout force fullscreen: Disable fast scroller
+5b60328c11 SoundSettings: Add screenshot sounds settings
+dc1a6a3bea Settings: [2/2] Implement cutout force full screen
+4ce165c8bf settings : Fix symlink to cafe
+7d310e93dd Settings: rebrand WeebsX
+4c2d31f4de Settings: update WeebsX icons
+a8f0ea6baf Settings: add WeebCafe Settings
+
+====================
+     10-01-2020
+====================
+
+
+   * build/make
+602117ae7 build: Prefer using "user" buildtype prop for userdebug aswell
+54330c26f core: Use 'test-keys' only on eng build type
+873e95a64 envsetup: Prefer setting ccache compress as command line parameter
+
+   * frameworks/base
+ffc8e6f5ec1 MobileSignalController fix corresponding to upstream FeatureConnector change
+5bd18d49871 ImsManager.Connector became FeatureConnector.
+4655bcf2b7a Fix VOLTE icon color on Light statusbar
+bfe4badab14 SystemUI: Enhancement for volte icon
+cbba55c6f48 SystemUI: Query IMS state after CapabilityCallback is regisered
+c86707b2d60 SystemUI: Fix HD icon missing
+0ce0432b6b3 Adapt to IMS registration changes.
+20855726a67 SystemUI: Refactor the feature of volte icon
+941cace4f38 SystemUI: Fix volte icon doesn't update in real time
+b6d1cb20c98 SystemUI: Add new configuration for displaying Volte icon
+1b0e406d2bc SystemUI: Better QS detail clip animation
+f494eb68b4d try to fix upstream status bar+keyguard bug
+11903b3a6ba Overscroll: modified velocitytracker
+69d8b9b5b14 ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
+644a0ea8c9e Speed up Orientation Listener
+82b0f64daef Merge pull request #1 from xyzuan/ah
+
+   * manifest
+f619ee0 manifest : dont track google wlan and gps * creates duplication
+
+   * packages/apps/Settings
+545df77dd1 Settings: weebify strings
+d887460338 Settings: Add platform and RAM to Model & Hardware
+942d65fe3a Settings: Update some icons to MD2
+
+   * system/core
+1a39409da init: always allow local.prop overrides
+665b2cf6d fastbootd: Allow using kernel commits to pass SafetyNet
+
+====================
+     09-30-2020
+====================
+
+
+   * frameworks/base
+0d81c77b0f9 (Point) Only calculate sin and cos once
+429a6f44619 Cache pin algorithms in PinSet
+4d06e41cfbf Cache the global proxy to avoid fetching it for every request
+2785708f4f0 Tuner: Hide icon in QS
+346d4493dfa base: Let legacy apps scale fully to the display's aspect ratio
+e8fb39dd69e SystemUI: Make QS Status font bolder and bigger
+fb187a7cc28 base: Add button to AppErrorDialog to upload crash information to dogbin
+eaf0694cf09 ActivityManagerService: Disallow requestSystemServerHeapDump on non-eng builds
+04b27aa130f StatusBar: Silence logspam
+3eb652cf025 Calm down attention service logspam
+094fba5c2a1 Fix NPE with void android.view.VelocityTracker.clear()
+80b50480ef0 Turn off some debugs
+3733df9395a Cache KeyStoreService
+5c2502bbb78 ViewConfiguration: misc changes (rev)
+6dd9a4b6125 InputWrapper: Opt out early if session == null
+3d5854046af Avoid needless Integer.valueOf() object allocation.
+042714e017d Prevent deadlock when going out of idle state
+500f667c203 base: kill some log spam
+d6466b9d409 Treat default value that wasn't found as empty value
+38f8b128c75 Shorten wait time for shutdown time optimization
+4a5023f8269 DEBUG: Turn off some debugging we don't need.
+acaa99a5288 Catch IllegalArgumentException in stopScreenshot()
+eae5d9429a1 Fix incorrect context classloader initialization in system_server
+be646b9458f StorageManagerService: Fix for system_server crash while booting
+e90c8e3c5f7 base: media_seekbar: make it sexy
+bcccfa8d659 base: Use MD2 icon for missed call notification
+69a03e538f6 base: Update some icons to MD2
+a0c36c3a86d base: Update ic_doc_folder drawable to MD2
+8c3f4762e60 base: Update few drawables
+
