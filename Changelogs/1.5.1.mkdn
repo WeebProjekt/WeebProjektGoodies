@@ -1,0 +1,137 @@
+
+WeebProjekt R
+
+
+====================
+     10-06-2020
+====================
+
+
+   * bootable/recovery
+8f2f0cee init: update recovery when enabled in settings
+c2bc9f87 recovery: Map logical partitions before installation
+16a1c35b recovery: Remove the "Format system partition" menu on A/B devices
+a4e02c9a recovery_ui: Tell the user they're actually formatting
+8c0e235c bootable: Read all asserts in case there are more than one
+0275d8ba recovery: use ensure_volume_unmounted in format_volume
+2211f797 recovery: Add runtime checks for A/B vs traditional updates
+57fe6577 recovery: Add "Enable ADB" to advanced options
+c0286377 recovery: Print the active slot
+dbb55a28 recovery: Display recovery version
+c36be4c9 recovery: Draw the help message below the menu on non-touch devices
+5ea05618 recovery: Clarify help text
+cf3c847d recovery: Set the INFO color to the recovery/fastboot light color
+8fe12ea1 recovery: apply new design to menu padding, color and arrow
+e32feb5a recovery: Stop showing fastbootd logo for devices without it
+96617911 recovery: add new recovery and fastbootd logos
+16401378 recovery: compute displayable item count while drawing
+0601169c recovery: Dejank the menus
+3f31712b recovery: split in submenus
+e8c34255 recovery: calibrate touchscreen
+d10764c7 recovery: New install/progress animation
+f87f1627 recovery: touch UI
+0ea02e3f recovery: simple graphical ui
+45e42024 recovery: Mark as Lineage Recovery
+c5f1cfc5 recovery: allow opting-in to fastbootd
+c8eee7c1 recovery: sdcard is data/media/0
+019a5709 recovery: symlink /sbin for script compatibility
+ea75b465 recovery: init: mount pstore fs
+16c45261 recovery: Puke out an /etc/fstab so stuff like busybox/toybox is happy
+5eb448b6 recovery: Get a proper shell environment in recovery
+17ca8249 recovery: Provide caching for sideload files
+b7d6ef4f Don't allow formatting & mounting system on user builds
+110753bb recovery: Also hide rescue mode from non eng builds
+7ab893bd recovery: Only show tests in eng builds
+5a99c5ec recovery: Expose reboot to recovery option
+eea59816 recovery: Enable the menu for User builds
+3807c5fc recovery: Add wipe system partition option
+3e609ae4 recovery_utils: add support for unmounting entire volumes
+4684351e recovery: Don't consider manual install aborts as errors
+677d16b6 recovery: Provide sideload cancellation
+e1b7d230 recovery: Allow device-specific recovery modules
+c734a24b recovery: Blank screen on init
+179bb6ab recovery: ui: Support hardware virtual keys
+35ee8cc3 recovery: ui: Minor cleanup for touch code
+e0daa7f2 recovery: ui: Default to touch enabled
+15738657 recovery: Remove HOST_OS guard for f2fs tools
+
+   * build/make
+80571d0f0 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/build into cheese
+afff58116 fix apn location since we are not tracking device/sample
+a815ddd04 build: set build fingerprint for all devices
+8d80b181f product: Exclude AOSP apn list on WEEB build
+ab9f7cb82 core: main: never enable checkjni
+
+   * device/qcom/sepolicy-legacy-um
+58c67940 prepare for weeb
+
+   * device/weeb/sepolicy
+1baa5aa Compile for weeb
+
+   * frameworks/av
+8c7c83e01b av: Remove restrictions for system audio record [2/2]
+
+   * frameworks/base
+4f024b1049c Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/frameworks/base into cheese
+7035c9e1b38 SwipeToScreenshot: Import MIUI implementation
+b4da3672ebe Improvements for swipe to screenshot
+24855c77921 base: Add three-fingers-swipe to screenshot [1/2]
+b060d6b42cb [1/2] base: Remove restrictions for system audio record
+
+   * frameworks/native
+4d8047922 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/frameworks/native into HEAD
+
+   * manifest
+bf7640f remove duplicated packages
+1ed1338 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/manifest into cheese
+05a3c90 Manifest for Android 11.0.0 Release 5 (RP1A.201005.006)
+c53893e Manifest for Android 11.0.0 Release 4 (RP1A.201005.004)
+e70c775 track sepolicies from weeb-wip cheese branch * remove qti blutooth package
+92a46f0 track qti aidl power hal from weeb-caf
+
+   * packages/apps/Launcher3
+3aac7e7d0 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/packages/apps/Launcher3 into cheese
+
+   * packages/apps/WeebCafe
+13cecee Add three-fingers-swipe to screenshot [2/2]
+
+   * system/bt
+bed5aa0c1 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * system/core
+8e7679217 Merge tag 'android-11.0.0_r5' of https://android.googlesource.com/platform/system/core into cheese
+fd3344339 healthd: Add support for BMS and WiPower.
+309921a64 logcat: Map '-C' to 'logcat -v color'
+d57e6ee7d init.rc: don't start console unless asked to
+5b4fe8b30 adb: Add ro.adb.secure.recovery handling
+82d6f389e reboot: allow opting-in to fastbootd
+53b4441cc healthd: allow custom charger images
+
+   * system/sepolicy
+9a410f6f4 Only require compat mapping files if they exist.
+8a16c461a sepolicy: Allow recovery to alter /
+0092533af sepolicy: whitelist recovery from node creation neverallow
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr
+1fc2af6 hal: Use log/log.h instead of cutils/log.h
+af3d5d6 Address IPACM start failure.
+f3b67a2 test
+17b7c7c data-ipa-cfg-mgr: Use    * pathmap
+
+====================
+     10-05-2020
+====================
+
+
+   * build/make
+0e33d6048 Revert "Remove the obsolete UnpackPackageDir() in edify generator"
+
+   * device/qcom/sepolicy-legacy
+8b7da0d prepare for weebs
+
+   * device/weeb/sepolicy
+2fe3cf3 common: Switch Updater app to its own SELinux domain
+
+   * manifest
+b5d0ac3 manifest : Arrange all repos * track from arrow as well * track from wip
+
