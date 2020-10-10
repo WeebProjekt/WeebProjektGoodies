@@ -1,0 +1,98 @@
+
+WeebProjekt R
+
+
+====================
+     10-10-2020
+====================
+
+
+   * frameworks/base
+3a804fb119d Merge pull request #4 from xyzuan/cheese-stagingA
+1d0213b9056 Better divider in darkmode.
+
+   * packages/apps/Settings
+a35b792929 Merge pull request #4 from xyzuan/cheese-stagingC
+3a58c0eded Use Google Sans for Settings Header
+33b3dad331 adjust contextual background
+6a119c7bdd Tint Settings Dashboard icons
+
+   * packages/apps/WeebCafe
+3c401ea Merge pull request #2 from xyzuan/cheese-test
+
+   * vendor/qcom/opensource/interfaces
+092ce6f interfaces: Introduce qcom bluetooth_audio and btconfigstore HALs
+
+====================
+     10-09-2020
+====================
+
+
+   * frameworks/base
+ee687b711d3 SystemUI: Improve VoLTE detection logic
+8ce8b638ed6 SystemUI: Optional VoWiFi icon [1/2]
+cc0feb2a182 SystemUI: support VoWIFI icons
+10c51cd2a67 base: Fix padding for VoLTE icon
+c1bc5b6bc6b VoLTE Icon - User Selectable VoLTE Icon [1/2]
+32d1faf89ed Add VOLTE icon toggle [1/2]
+66e83999523 SystemUI: Show 4G instead of LTE switch [1/2]
+7fe68f0f80d Update qs footer edit icon + core settings icon
+01883a9243b ListView: Disable dividers by default
+97335d2db06 ChooserActivity: remove ugly separator
+cfa0f39f02b SystemUI: Bring back media art on lockscreen
+e99e8af28c6 base: small hack to remove the white divider above music player in expanded QS
+a536e87b482 base: Add the media player top divider back
+
+   * packages/apps/Settings
+c3897c6380 adapt WeebsX to be adaptive icon.
+
+   * packages/apps/WeebCafe
+0df3c72 WeebsX: Optional VoWiFi icon
+8fd386b WeebsX: User Selectable VoLTE Icons
+a847e5a WeebsX: VoLTE icon toggle
+fdc9616 WeebsX: 4G instead of LTE options
+968f3b6 WeebsX: tinted WeebsX icon
+cb8dfd9 WeebsX: adjust margin bottom of Weeb Dashboard.
+
+====================
+     10-08-2020
+====================
+
+
+   * frameworks/base
+f42d1568a86 LongClick icon Settings in QS to go WeebsX
+ee85a51908f base: SystemUI: add tuner pref for qs brightness slider position [1/2]
+e1c2ba0ed13 Add auto brightness toggle to Quick Settings
+
+   * packages/apps/Settings
+01ffb7bcb0 SearchBar: Add avatar to search bar
+559aba0286 Remove shadow behind actionbar
+8f488fe176 Redesign Settings Header
+
+   * packages/apps/WeebCafe
+b601791 WeebsX: MasterSwitchPreference Fix settings not applying
+d52aabc WeebsX: MasterSwitchPreference isChecked doesn't rely on existence of switch
+e31e75d WeebsX: Add SystemSettingsMasterSwitchPreference
+586f36f WeebsX: Add seekbar and list settings preferences
+56ea9af WeebsX: Add pref for qs brightness slider position
+
+====================
+     10-07-2020
+====================
+
+
+   * frameworks/base
+0a4fc37f7c1 Global Actions with Advanced Reboot [1/3]
+
+   * packages/apps/Settings
+0dd43c8245 Global Actions with Advanced Reboot [3/3]
+3993d8ce99 revert some weebsify strings
+b0f859a776 DevelopmentSettings: Disable automatic updates
+0c9eac5ef6 Merge pull request #2 from xyzuan/desu
+4b54f02f20 revert some weebsify strings
+ad0141c09c Global Actions with Advanced Reboot [3/3]
+
+   * packages/apps/WeebCafe
+764a15a Merge pull request #1 from xyzuan/cheese
+66700ef WeebsX: add MediaArt Controler.
+
