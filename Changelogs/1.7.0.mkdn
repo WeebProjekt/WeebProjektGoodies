@@ -1,0 +1,87 @@
+
+WeebProjekt R
+
+
+====================
+     10-15-2020
+====================
+
+
+   * frameworks/base
+744e043c669 base: Allow hide gesture navbar [1/3]
+07db0147103 base: allow customizing the length of gesture navbar [1/3]
+c21655c01bc base: Remove keyguard delay completely
+b9db168a196 frameworks: Add unlinked ringtone and notification volumes
+0c38fed43eb VolumeDialog: Fix live caption button when on left side
+b8f22dc906d Volume panel: avoid multiple animations on touch spam
+c794c524ea5 VolumeDialog: display default row when active row is notification
+09daf0160ed VolumePanel: Pass touch outside of volume panel
+21401964b95 base: Redo expanded volume panel for 11.x
+4533919a1fa SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod
+6da6fe45662 d2w: fix double tap to wake on ambient
+a690049b924 Brightness slider: Visual Improvements
+9077572c3b9 SystemUI: use OnePlus drawables for autobrightness icon
+073d3d3208d SystemUI: Always disable rotation on lockscreen
+9608162166c screenrec: Save recordings in ScreenRecords
+f8439dc3b70 screenrec: Show dialog on bottom
+40c6685834f QS: Add and use Bluetooth Panel instead of full Settings
+75a70bd70fc Utils: Method to detect a notch'd device
+f50bbd69824 NetworkTraffic: Fix speed format for 10*KB
+1927bdfeb96 Traffic indicators: Prevent logspam caused by improperly calling requestLayout()
+fc2b3b22478 Expanded statusbar net monitor: final visibility fixes
+14f17e6a9bf Net monitor: don't show two instances in expanded statusbar
+e6237d474d4 Traffic indicators: Hide in the keyguard
+428ab5896b6 Add network traffic monitor properly to statusbar icons
+11ec5e3ef90 Net monitor: allow to show in expanded statusbar only [1/2]
+a9c3e51af46 Net monitor: use smaller and bold fonts in expanded statusbar
+d6ebcff748f Statusbar net monitor: code cleanup and improvements
+5c92e4f0f76 Battery percentage/Net monitor: Fix cut off issue in keyguard
+50a68d73356 Network Traffic: Adjust size/text style for extended statusbar
+dc35e9ab080 Network Traffic: Refactor text formatting
+1c10af12a85 Network Traffic: OOS style network traffic indicator
+001338f7abd Network Traffic: Move network indicator to the right
+c389a9d91fa Network Traffic: Bring back traffic indicator for all
+eb9ea98feb6 NetworkTraffic: Fix speed unit
+ba8ebe744b3 Network traffic: fix indicator not hiding on lost connection
+6dda589652c Net monitor: fix text color on light theme
+e670a124e23 Move net monitor to expanded statusbar header
+be302de5a03 Move battery icon to QS header
+f7149a92b81 Network traffic: skip more useless handler calls
+bed229db3f0 Statusbar net monitor: stop the handler if screen is off
+8aaf530d3a4 Network Traffic [1/2]
+
+   * packages/apps/Settings
+a27bc9a21f Settings: Allow hide gesture navbar [2/3]
+6d23c974b0 Settings: allow customizing the length of gesture navbar [2/3]
+1920f561a2 Revert "Tint Settings Dashboard icons"
+53e4c5c0af panels: Add Bluetooth panel
+
+   * packages/apps/WeebCafe
+a24d5ee weeb : Traffic Monitor
+
+====================
+     10-14-2020
+====================
+
+
+   * frameworks/base
+4eea80a1d4a [android11-gsi] Fix navigation input consumer not working when first window is invisible
+9fba4f214f1 [master] Fix deadlock between AppOpsService and HistoricalRegistry.
+09df10633de [android11-gsi] Do not re-initialize synthetic password
+ed4739e1d12 [master] Excessive battery usage fix.
+073e24dd760 [master] Fix override setBufferCount
+5178e2336a2 SystemUI: Never animate on wakeup
+e8ae62e6b5f SystemUI: Remove QS drag handle
+5bff4807fe2 Disable overfling bounce
+dadc69ac94c SystemUI: Fix uneven volume icon padding in status bar
+
+====================
+     10-13-2020
+====================
+
+
+   * manifest
+8c1b30f manifest : track vendor pixel
+1f714a7  manifest : Track data-ipa-cfg-mgr and dataservice
+
+
