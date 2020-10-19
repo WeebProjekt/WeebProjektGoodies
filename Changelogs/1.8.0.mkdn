@@ -1,0 +1,127 @@
+
+WeebProjekt R
+
+
+====================
+     10-19-2020
+====================
+
+
+   * bionic
+9dc1c66f3 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/bionic into HEAD
+
+   * build/make
+6090e74aa Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/build into cheese
+
+   * build/soong
+11ed57da Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * frameworks/av
+2a2da682b3 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/frameworks/av into cheese
+
+   * frameworks/base
+c94e099d496 blur: Bump SystemUI blur radius to 175 px
+431dec174f4 NotificationShade: Make blur crossfading more gradual
+327ac7ac409 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/frameworks/base into cheese
+
+   * frameworks/native
+8e8816285 require OTHER_SENSORS permission for sensors
+9eaae354a blur: Downscale source FBO to 20% size
+e9dea0962 blur: Don't limit number of Kawase blur passes
+8db421c65 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/frameworks/native into cheese
+
+   * hardware/interfaces
+9d0bf9224 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/hardware/interfaces into HEAD
+
+   * hardware/libhardware
+1fa83b81 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * manifest
+e3e4cbc Do not track Pixel 5 repos
+701a733 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/manifest into cheese
+
+   * packages/apps/Launcher3
+eb704de44 Launcher3: Allow blur in all states except ALL_APPS and NORMAL
+092813ea1 Launcher3: Expose feature flag UI on user builds
+4ced27778 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/packages/apps/Launcher3 into cheese
+
+   * packages/apps/Settings
+a6ae850fc7 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/packages/apps/Settings into cheese
+
+   * packages/apps/SettingsIntelligence
+103f183 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/packages/apps/SettingsIntelligence into HEAD
+
+   * packages/apps/ThemePicker
+031e693 ThemePicker: Fix ugly black/transparent bar under nav area
+a60aa99 Don't trash whole theme when missing icon preview.
+ba35e5c Fix preview tile in grid option picker.
+ce13351 Show item name under the category name.
+2103a34 Enable vertical scrollbar for options container.
+b21782a Add wallpaper default permissions
+11bfcdb Add wallpaper privapp whitelist
+ece8cf0 Specify we read and write launcher settings
+c012862 Properly catch exceptions
+a8bf9c5 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/packages/apps/ThemePicker into cheese
+
+   * prebuilts/abi-dumps/vndk
+acb1504 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/prebuilts/abi-dumps/vndk into HEAD
+
+   * system/bt
+4cd9bd207 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/system/bt into cheese
+
+   * system/core
+b4f52e7f2 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/system/core into cheese
+
+   * system/sepolicy
+d8dc92398 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform/system/sepolicy into cheese
+
+====================
+     10-18-2020
+====================
+
+
+   * hardware/qcom/camera
+c908159 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform//hardware/qcom/camera into HEAD
+
+   * packages/apps/WallpaperPicker2
+8d2af9c WallpaperPicker2: match bottom bar color to primary dark color
+
+====================
+     10-17-2020
+====================
+
+
+   * hardware/qcom/display
+05bb04e2 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform//hardware/qcom/display into HEAD
+
+   * hardware/qcom/gps
+9bfc767 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform//hardware/qcom/gps into HEAD
+
+   * hardware/qcom/media
+ba571d01 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform//hardware/qcom/media into HEAD
+
+   * hardware/ril
+8c10165 Merge tag 'android-11.0.0_r8' of https://android.googlesource.com/platform//hardware/ril into HEAD
+
+====================
+     10-16-2020
+====================
+
+
+   * frameworks/base
+7e75e8a9ba1 base: add missing shape overlays
+e6b0a5baba1 Revert "overlays : Don't build font from here"
+34da285bc8d Remove Tint Completely
+c0dd64b37d2 Revert "SystemUI: use OnePlus drawables for autobrightness icon"
+
+   * manifest
+2b8bee1 Manifest for Android 11.0.0 Release 8 (RD1A.200810.021.A1)
+8a202aa Manifest for Android 11.0.0 Release 7 (RD1A.200810.020)
+ce31b49 Manifest for android11-d1-release.
+
+   * packages/apps/Launcher3
+416af2c00 Launcher3: Add back button in home settings.
+
+   * packages/apps/Settings
+e28ae52dcc AmbientDisplay: Add custom pref for devices with custom doze packages
+2753a4b4f7 Settings: Use global fonts in styles
