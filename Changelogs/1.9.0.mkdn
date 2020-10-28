@@ -1,0 +1,119 @@
+
+WeebProjekt R
+
+
+====================
+     10-28-2020
+====================
+
+
+   * frameworks/base
+6c0b90147e5 fonts : dont build these fonts from framework
+a46dfd61831 base: fix tapered rect overlay
+
+   * manifest
+f13777a Weeb : Rearrange some more
+
+   * packages/apps/ThemePicker
+0bf27e1 Adjust Item label to bottom.
+c765a13 Add scrollbar in clock face, grid, theme picker
+
+   * vendor/google/pixel
+72acfe0 pixel : Remove fonts * will be defined in our vendor
+
+====================
+     10-27-2020
+====================
+
+
+====================
+     10-26-2020
+====================
+
+
+====================
+     10-25-2020
+====================
+
+
+   * frameworks/base
+f7c85fc6c62 Merge pull request #8 from WeebProjekt/cheese-pre_D
+
+   * packages/apps/Launcher3
+e6d9a0318 Merge pull request #2 from WeebProjekt/cheese-pre_C
+
+   * packages/apps/Settings
+7ebfb60f36 Merge pull request #7 from WeebProjekt/cheese-pre_B
+
+   * vendor/google/pixel
+4300ffa Merge pull request #1 from WeebProjekt/cheese-pre_D
+
+====================
+     10-24-2020
+====================
+
+
+   * frameworks/base
+8d0d938617a ClockFace: Binary: use color secondary for Binary
+6b8a273be14 Overlays: adapt Pixel2020 settings overlays drawable colors.
+
+====================
+     10-23-2020
+====================
+
+
+   * frameworks/base
+d4713d201e3 Cleanup.
+2663852da27 Overlay: adapt overlay to for aospThemePicker.
+902a39c64ee ClockFace: Binary: update binary clock preview look good
+35fe3136466 ClockFace: Binary: make it compile in 11
+41f7ff8c490 VolumeDialog: disable divider
+3970fc8146a Adjust qs tile disabled bg color.
+950fc29b3d0 Cleanup.
+
+   * frameworks/native
+1c344c271 Revert "require OTHER_SENSORS permission for sensors"
+
+   * packages/apps/Launcher3
+997c1c3e4 WeebLauncher: change style-dark color values
+1e36a4700 WeebLauncher: cleanup workspace.
+
+   * packages/apps/Settings
+8fbe67a1a4 Cleanup.
+
+   * vendor/google/pixel
+4edaadf Pixel: Fonts: import fonts from Pixel2020
+
+====================
+     10-22-2020
+====================
+
+
+   * frameworks/base
+2ba04cf8a9a ClockFace: Binary: Use same color behavior as AOSP clocks
+e258a614a88 ClockFace: Binary: add binary custom clock face
+628e3aeb70b overlays: Unify icon packs category name
+aeac05216fd overlays: Fix background colouring for settings themed icons
+
+   * packages/apps/Launcher3
+b63a172e1 WeebLauncher: Always show all apps divider in prediciton view
+50042165e WeebLauncher: Disable top/hotseat gradient
+c7dbc7888 WeebLauncher: Set a toggle to show Smartspace on first screen
+89663afd2 Cleanup.
+cf2dcfc5c WeebLauncher: Try binding At A Glance on first boot
+9fb6ad8b2 WeebLauncher: Open calendar when clicking At A Glance without Google App
+35b5ebe3c WeebLauncher: Try binding At A Glance immediately when creating the view
+08b5c679b WeebLauncher: Replace top search bar with At A Glance
+87bf318f6 WeebLauncher: Use system fonts
+549d9c840 WeebLauncher: add toggle for desktop and drawer labels
+ad7bde81b WeebLauncher: Globally disable debug logging
+fb81ca17c WeebLauncher: Retrieve the searchbar padding from device profile
+844b7bc3d WeebLauncher: QSB: request round search bar
+
+   * packages/apps/Settings
+cb97e432de Merge pull request #6 from WeebProjekt/cheese-pre_B
+
+   * packages/apps/WeebCafe
+aa47220 Merge pull request #4 from WeebProjekt/cheese-pre_B
+729ad11 Merge pull request #3 from WeebProjekt/cheese-pre_A
+
