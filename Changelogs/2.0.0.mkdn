@@ -1,0 +1,133 @@
+
+WeebProjekt R
+
+
+====================
+     11-09-2020
+====================
+
+
+   * manifest
+c4e90e0 lineage : track exfat from lineage-17.1
+
+   * packages/apps/Settings
+1435ec6409 Merge pull request #8 from WeebProjekt/cheese-nov-patch
+
+   * packages/apps/WeebCafe
+57c102a Merge pull request #5 from WeebProjekt/cheese-nov-patch
+
+====================
+     11-08-2020
+====================
+
+
+====================
+     11-07-2020
+====================
+
+
+   * prebuilts/tools-weeb
+a82d85a tools-lineage: Add cpio 2.13
+
+====================
+     11-06-2020
+====================
+
+
+   * external/nano
+67ac008c input: Disable bracketed paste properly
+
+   * packages/apps/Settings
+13e3922b8d adjust weeb cardview colors.
+9d7aa2fc30 Redesign about phone section.
+03a813f72d Settings: Add switch for linked ring and media notification volumes
+65f7950f5a Nuke Theming from settings.
+
+   * packages/apps/WeebCafe
+50b3198 WeebsX: disable few settings section (temp)
+585eca8 WeebsX: Adjust drawable name.
+
+====================
+     11-05-2020
+====================
+
+
+   * build/make
+091ec4049 Merge tag 'android-11.0.0_r15' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/base
+81dfd141f52 Merge tag 'android-11.0.0_r15' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * frameworks/native
+084d6fbc9 Merge tag 'android-11.0.0_r15' of https://android.googlesource.com/platform/frameworks/native into HEAD
+
+   * manifest
+2a46aef Merge branch 'android-11.0.0_r15' of https://android.googlesource.com/platform/manifest into cheese
+
+   * packages/apps/Settings
+dc707ced70 Merge tag 'android-11.0.0_r15' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+   * system/bt
+8644fb630 Merge tag 'android-11.0.0_r15' of https://android.googlesource.com/platform/system/bt into HEAD
+
+====================
+     11-04-2020
+====================
+
+
+   * external/nano
+f9d314de Revert "input: read in an external paste in one go, to allow undoing with one M-U"
+
+====================
+     11-03-2020
+====================
+
+
+   * packages/resources/devicesettings
+2fc8419 Add strings for wake on gesture
+
+====================
+     11-02-2020
+====================
+
+
+   * manifest
+e8e23c4 Manifest for Android 11.0.0 Release 15
+06c194b Manifest for Android 11.0.0 Release 14
+9053584 Manifest for Android 11.0.0 Release 13
+0858832 Manifest for Android 11.0.0 Release 12
+28c9549 Manifest for Android 11.0.0 Release 11 (RD1A.200810.022.A4)
+3f75a33 Manifest for Android 11.0.0 Release 10 (RD1A.200810.021.B3)
+3dbec0c Manifest for Android 11.0.0 Release 9 (RD1A.200810.020.A1)
+
+====================
+     11-01-2020
+====================
+
+
+   * packages/resources/devicesettings
+dd1873e Automatic translation import
+
+====================
+     10-31-2020
+====================
+
+
+====================
+     10-30-2020
+====================
+
+
+====================
+     10-29-2020
+====================
+
+
+====================
+     10-28-2020
+====================
+
+
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+033f349 gcc-4.9: Restore GCC
+
