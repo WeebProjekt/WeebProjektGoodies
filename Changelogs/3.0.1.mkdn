@@ -1,0 +1,184 @@
+
+WeebProjekt R
+
+
+====================
+     12-12-2020
+====================
+
+
+   * frameworks/base
+c65b2c40abb Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+====================
+     12-11-2020
+====================
+
+
+   * bionic
+775005d56 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/bionic into HEAD
+
+   * build/make
+991739dda Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/build into HEAD
+
+   * build/soong
+08064b78 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * frameworks/av
+6bc72b8b9e Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into HEAD
+
+   * frameworks/native
+9a98bd2c1 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into HEAD
+
+   * hardware/interfaces
+e02622a35 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/hardware/interfaces into HEAD
+
+   * hardware/libhardware
+b6b2329b Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * manifest
+de2290a Merge branch 'android-11.0.0_r20' of https://android.googlesource.com/platform/manifest into cheese
+
+   * packages/apps/Launcher3
+feed8f5cc Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Launcher3 into HEAD
+
+   * packages/apps/Settings
+909c089614 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+   * packages/apps/SettingsIntelligence
+2d5edde Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/packages/apps/SettingsIntelligence into HEAD
+
+   * packages/apps/ThemePicker
+2bcef87 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/packages/apps/ThemePicker into HEAD
+
+   * prebuilts/abi-dumps/vndk
+4e66ada Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/prebuilts/abi-dumps/vndk into cheese
+
+   * system/bt
+b5a2e7d0f Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/system/bt into HEAD
+
+   * system/core
+aa8f1166d Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/system/core into cheese
+
+   * system/sepolicy
+5d4c82030 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/system/sepolicy into HEAD
+
+   * system/vold
+06169bb Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/system/vold into HEAD
+
+   * tools/metalava
+c1cc33c Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/tools/metalava into HEAD
+
+====================
+     12-10-2020
+====================
+
+
+   * hardware/qcom/camera
+f45d4d6 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/camera into HEAD
+
+   * hardware/qcom/display
+cd1cd6fc Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/display into HEAD
+
+   * hardware/qcom/media
+73b6a61 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/media into HEAD
+
+====================
+     12-09-2020
+====================
+
+
+====================
+     12-08-2020
+====================
+
+
+   * manifest
+bb695ff Manifest for Android 11.0.0 Release 20 (RQ1A.201205.010)
+36dfbc1 Manifest for Android 11.0.0 Release 19 (RQ1A.201205.008)
+7bcc68e Manifest for Android 11.0.0 Release 18 (RQ1A.201205.003)
+02c5301 Manifest for android11-qpr1-release.
+
+   * vendor/google/gms
+6356b37 gms: Update to 11_202011.
+
+====================
+     12-07-2020
+====================
+
+
+====================
+     12-06-2020
+====================
+
+
+====================
+     12-05-2020
+====================
+
+
+====================
+     12-04-2020
+====================
+
+
+   * build/make
+9c5f44c70 Drop weeb  soong product variables inclusion
+
+   * build/soong
+9585f841 soong: Drop weeb soong product variables
+
+   * device/qcom/sepolicy-legacy-um
+18b608da Update path
+
+   * device/qcom/sepolicy_vndr
+6d3d49a1 Fix path
+
+   * frameworks/av
+dd18d285b1 camera: Convert weeb  product variables to soong config variables
+
+   * hardware/interfaces
+ffa54776a camera: Convert weeb product variables to soong config variables
+
+   * manifest
+f169585 weeb : Prepare for December Pre-release
+
+   * system/core
+8c27cad66 init: Convert weeb product variables to soong config variables
+
+====================
+     12-03-2020
+====================
+
+
+====================
+     12-02-2020
+====================
+
+
+====================
+     12-01-2020
+====================
+
+
+====================
+     11-30-2020
+====================
+
+
+   * hardware/qcom-caf/wlan
+33e1172 wcnss-service: Remove setup_wlan_driver_ath_prop()
+
+====================
+     11-29-2020
+====================
+
+
+====================
+     11-28-2020
+====================
+
+
+   * device/qcom/sepolicy-legacy-um
+f4d03720 genfs_context: Enabling Vibrator for sdm660
+
