@@ -3,15 +3,34 @@ WeebProjekt R
 
 
 ====================
+     12-14-2020
+====================
+
+
+   * frameworks/av
+76d77d4218 nuplayer: Avoid crash when codec fails to load
+91a03f5dc9 Fix high battery drain after using flashlight
+
+   * manifest
+22788a5 manifest : add codeaurora hals guards * also switch to some repos from los
+efa65cd manifest: lineage: Track some repos from los 18 * they are not yet there for 18.1
+75a014b manifest : track some more external repos from los
+6e33a50 manifest : track 18.1 instead of 18.0 from los
+
+   * vendor/google/pixel
+f553cf4 pixel: Update from Google Pixel 5 (RD1A.201105.003.C1).
+3e513da pixel: overlay: Add animations on some preferences.
+
+====================
+     12-13-2020
+====================
+
+
+   * vendor/qcom/opensource/interfaces
+c715742 interfaces: Introduce vendor.qti.hardware.btconfigstore@2.0 HAL
+
+====================
      12-12-2020
-====================
-
-
-   * frameworks/base
-c65b2c40abb Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into HEAD
-
-====================
-     12-11-2020
 ====================
 
 
@@ -24,8 +43,19 @@ c65b2c40abb Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/p
    * build/soong
 08064b78 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/build/soong into HEAD
 
+   * external/gptfdisk
+9f871cd gptfdisk: include gptcl.h after sgdisk.h
+93fc48e gptfdisk: Provide sgdisk_read for direct reads of the partition table
+6457c36 gptfdisk: Build lib for recovery
+
+   * external/tinyalsa
+65b23d8 Mark tinymix/tinyplay as vendor_available
+
    * frameworks/av
 6bc72b8b9e Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/av into HEAD
+
+   * frameworks/base
+c65b2c40abb Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/base into HEAD
 
    * frameworks/native
 9a98bd2c1 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/frameworks/native into HEAD
@@ -35,6 +65,18 @@ e02622a35 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/pla
 
    * hardware/libhardware
 b6b2329b Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * hardware/qcom/data/ipacfg-mgr
+d9334ba ipacfg-mgr: Use generated kernel headers
+9d85206 Kernel Header Changes
+
+   * hardware/ril
+f958793 Make RIL command headers overlayable by devices.
+51d4358 FR51015: Tuning of Binder buffer for rild.
+21ae3dc libril: Fix manual network selection with old modem
+a6d44aa libril: Restore support for RIL v6, v8 and v9 stacks
+572c16a libril: Bounds check s_commands
+386a7ab libril: allow board to provide libril
 
    * manifest
 de2290a Merge branch 'android-11.0.0_r20' of https://android.googlesource.com/platform/manifest into cheese
@@ -70,6 +112,11 @@ aa8f1166d Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/pla
 c1cc33c Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform/tools/metalava into HEAD
 
 ====================
+     12-11-2020
+====================
+
+
+====================
      12-10-2020
 ====================
 
@@ -80,6 +127,9 @@ f45d4d6 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platf
    * hardware/qcom/display
 cd1cd6fc Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/display into HEAD
 
+   * hardware/qcom/gps
+432b56e Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/gps into HEAD
+
    * hardware/qcom/media
 73b6a61 Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/platform//hardware/qcom/media into HEAD
 
@@ -87,6 +137,9 @@ cd1cd6fc Merge tag 'android-11.0.0_r20' of https://android.googlesource.com/plat
      12-09-2020
 ====================
 
+
+   * hardware/qcom/audio
+7a1f94f audio: Use generated kernel headers
 
 ====================
      12-08-2020
@@ -101,84 +154,4 @@ bb695ff Manifest for Android 11.0.0 Release 20 (RQ1A.201205.010)
 
    * vendor/google/gms
 6356b37 gms: Update to 11_202011.
-
-====================
-     12-07-2020
-====================
-
-
-====================
-     12-06-2020
-====================
-
-
-====================
-     12-05-2020
-====================
-
-
-====================
-     12-04-2020
-====================
-
-
-   * build/make
-9c5f44c70 Drop weeb  soong product variables inclusion
-
-   * build/soong
-9585f841 soong: Drop weeb soong product variables
-
-   * device/qcom/sepolicy-legacy-um
-18b608da Update path
-
-   * device/qcom/sepolicy_vndr
-6d3d49a1 Fix path
-
-   * frameworks/av
-dd18d285b1 camera: Convert weeb  product variables to soong config variables
-
-   * hardware/interfaces
-ffa54776a camera: Convert weeb product variables to soong config variables
-
-   * manifest
-f169585 weeb : Prepare for December Pre-release
-
-   * system/core
-8c27cad66 init: Convert weeb product variables to soong config variables
-
-====================
-     12-03-2020
-====================
-
-
-====================
-     12-02-2020
-====================
-
-
-====================
-     12-01-2020
-====================
-
-
-====================
-     11-30-2020
-====================
-
-
-   * hardware/qcom-caf/wlan
-33e1172 wcnss-service: Remove setup_wlan_driver_ath_prop()
-
-====================
-     11-29-2020
-====================
-
-
-====================
-     11-28-2020
-====================
-
-
-   * device/qcom/sepolicy-legacy-um
-f4d03720 genfs_context: Enabling Vibrator for sdm660
 
