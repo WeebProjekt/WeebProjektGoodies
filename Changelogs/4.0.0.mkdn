@@ -1,0 +1,69 @@
+
+WeebProjekt R
+
+
+====================
+     02-09-2021
+====================
+
+
+   * frameworks/base
+b750d7ecfd3 Revert "core: Defy usage of NGA in Google Assistant"
+
+   * system/security
+83c3f75 keystore: Block key attestation for Google Play Services
+
+====================
+     02-08-2021
+====================
+
+
+   * build/make
+0e86254ca Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/av
+2be519a35b Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/frameworks/av into HEAD
+
+   * frameworks/base
+666ec0e11f8 Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/frameworks/base into HEAD
+
+   * frameworks/native
+3014ad3e7 Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/frameworks/native into HEAD
+
+   * manifest
+8c5f310 Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/manifest into HEAD
+
+   * packages/apps/Settings
+23a593106d Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+   * system/core
+14ed566c9 Merge tag 'android-11.0.0_r29' of https://android.googlesource.com/platform/system/core into HEAD
+
+====================
+     02-07-2021
+====================
+
+
+====================
+     02-06-2021
+====================
+
+
+   * vendor/google/gms
+0ed572a gms: Show Google's illustration on first page of finish setup.
+
+====================
+     02-05-2021
+====================
+
+
+====================
+     02-04-2021
+====================
+
+
+====================
+     02-03-2021
+====================
+
+
